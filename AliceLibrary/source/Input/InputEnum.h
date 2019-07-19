@@ -1,0 +1,85 @@
+#pragma once
+#include "../DirectX/DirectX.h"
+enum STATE_TYPE
+{
+	PRESENT,    //!<Œ»Ý‚Ìó‘Ô‚ðŽæ“¾‚·‚é
+	JUST_DOWN,    //!<‰Ÿ‚³‚ê‚½’¼Œã‚©‚ðŽæ“¾‚·‚é
+	JUST_UP,        //!<—£‚³‚ê‚½’¼Œã‚©‚ðŽæ“¾‚·‚é
+};
+
+enum KEYBOARD_BUTTON
+{
+	GC_KEY_A = DIK_A,
+	GC_KEY_B = DIK_B,
+	GC_KEY_C = DIK_C,
+	GC_KEY_D = DIK_D,
+	GC_KEY_E = DIK_E,
+	GC_KEY_F = DIK_F,
+	GC_KEY_G = DIK_G,
+	GC_KEY_H = DIK_H,
+	GC_KEY_I = DIK_I,
+	GC_KEY_J = DIK_J,
+	GC_KEY_K = DIK_K,
+	GC_KEY_L = DIK_L,
+	GC_KEY_M = DIK_M,
+	GC_KEY_N = DIK_N,
+	GC_KEY_O = DIK_O,
+	GC_KEY_P = DIK_P,
+	GC_KEY_Q = DIK_Q,
+	GC_KEY_R = DIK_R,
+	GC_KEY_S = DIK_S,
+	GC_KEY_T = DIK_T,
+	GC_KEY_U = DIK_U,
+	GC_KEY_V = DIK_V,
+	GC_KEY_W = DIK_W,
+	GC_KEY_X = DIK_X,
+	GC_KEY_Y = DIK_Y,
+	GC_KEY_Z = DIK_Z,
+	GC_KEY_UP = DIK_UP,
+	GC_KEY_DOWN = DIK_DOWN,
+	GC_KEY_LEFT = DIK_LEFT,
+	GC_KEY_RIGHT = DIK_RIGHT,
+	GC_KEY_RETURN = DIK_RETURN,
+	GC_KEY_ESCAPE = DIK_ESCAPE,
+	GC_KEY_SHIFT = DIK_LSHIFT,
+	GC_KEY_CTRL = DIK_LCONTROL,
+	GC_KEY_SPACE = DIK_SPACE,
+	GC_KEY_NONE = 0xff,
+};
+
+enum MOUSE_BUTTON
+{
+	MB_BUTTON_0 = 0,
+	MB_BUTTON_1 = 1,
+	MB_BUTTON_2 = 2,
+	MB_BUTTON_3 = 3,
+	MB_NONE = 0xff
+};
+
+#define BUTTON_NONE GC_KEY_NONE, MB_NONE
+
+enum GAMECONTROLLER_BTN
+{
+	GCBTN_0,
+	GCBTN_1,
+	GCBTN_2,
+	GCBTN_3,
+	GCBTN_4,
+	GCBTN_5,
+	GCBTN_6,
+	GCBTN_7,
+	GCBTN_8,
+	GCBTN_9,
+	GCBTN_10,
+	GCBTN_11,
+	GCBTN_12,
+	GCBTN_13,
+	GCBTN_14,
+	GCBTN_15,
+	GCBTN_16,
+	GCBTN_LEFT,
+	GCBTN_RIGHT,
+	GCBTN_UP,
+	GCBTN_DOWN,
+	GCBTN_NUM,
+};

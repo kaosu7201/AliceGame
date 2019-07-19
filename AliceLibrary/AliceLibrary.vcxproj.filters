@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TexturePack">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{d8003e6b-8020-4b84-a363-d4c3f3e876c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{9b667d99-91ef-4e38-8c76-e88ed8cd8aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mode">
+      <UniqueIdentifier>{58a9cdd7-4f1d-4433-a7b3-9a026e30501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{b9ba0aa0-368b-4e2d-8bed-8109d4776afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileNames">
+      <UniqueIdentifier>{14e4014a-1065-4999-b2ca-4e1be13b243a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{57b5df96-d109-4dbc-a490-73b9e6c79ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a6f71e1a-9fe1-4dda-94d5-01624044c4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsndal">
+      <UniqueIdentifier>{3741da99-1ffc-4c3a-9572-fc5ea29f3cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsndal\ヘッダーファイル">
+      <UniqueIdentifier>{22befb4f-202e-4573-bb84-7e043e969e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsndal\ソースファイル">
+      <UniqueIdentifier>{c050e8f7-bdb4-4255-b3f0-a5bc7b1169e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsndal\ソースファイル\libogg">
+      <UniqueIdentifier>{78e8e724-13f7-4e45-baf2-52431f696904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsndal\ソースファイル\tremor">
+      <UniqueIdentifier>{09dfef3b-168b-453e-b34a-3e00f1a235d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ee05c3f0-d1ba-4a8f-8831-8d275711143d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{202e1d39-e64a-4892-879c-3ec60c6a3399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteAnimation">
+      <UniqueIdentifier>{53999729-7505-4119-88a2-305a52366598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Shape">
+      <UniqueIdentifier>{878680df-6dd3-4693-9198-7570152147f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Shape\Circle">
+      <UniqueIdentifier>{6b191c61-48f9-4067-97c1-668e60506874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Shape\RectangleCollision">
+      <UniqueIdentifier>{e5563214-11bd-4d6a-b3ba-dafd8aae204e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\DirectX\DXDevice.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TexturePack\libtexpack.h">
+      <Filter>TexturePack</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DirectX\DirectX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\ApplicationBase.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\UtilMacro.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\appframe.h" />
+    <ClInclude Include="source\Mode\ModeBase.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mode\ModeServer.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Texture\DXTexPack.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Texture\DXTexManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Texture\DXTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FileNames\FileNames.h">
+      <Filter>FileNames</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DirectX\DXShader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DirectX\DXInput.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Texture\Sprite.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Input\InputDevice.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Input\KeyBoardDevice.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Input\InputEnum.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Object\ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Input\MouseDevice.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsound.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundbuffer.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundplayer.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundstorage.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundstorage_ogg.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundstorage_wav.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libsndal\libsoundutil.h">
+      <Filter>libsndal\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\Task.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpriteAnimation\SpriteAnimation.h">
+      <Filter>SpriteAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpriteAnimation\AnimationController.h">
+      <Filter>SpriteAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpriteAnimation\AnimationManager.h">
+      <Filter>SpriteAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\Fps.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\CollisionShape.h">
+      <Filter>Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\CircleCollision.h">
+      <Filter>Collision\Shape\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\RectangleCollision.h">
+      <Filter>Collision\Shape\RectangleCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Object\IGettableObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\DirectX\DXDevice.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TexturePack\libtexpack.cpp">
+      <Filter>TexturePack</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\ApplicationBase.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\WinMain.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode\ModeBase.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode\ModeServer.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DirectX\DirectX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture\DXTexPack.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture\DXTexManager.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture\DXTexture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileNames\FileNames.cpp">
+      <Filter>FileNames</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DirectX\DXShader.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DirectX\DXInput.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Texture\Sprite.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Input\InputDevice.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Input\KeyBoardDevice.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Object\ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Input\MouseDevice.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\libogg\bitwise.c">
+      <Filter>libsndal\ソースファイル\libogg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\libogg\framing.c">
+      <Filter>libsndal\ソースファイル\libogg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\block.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\codebook.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\floor0.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\floor1.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\info.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\mapping0.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\mdct.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\registry.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\res012.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\sharedbook.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\synthesis.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\vorbisfile.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsrc\tremor\window.c">
+      <Filter>libsndal\ソースファイル\tremor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundutil.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsound.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundbuffer.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundplayer.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundstorage.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundstorage_ogg.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libsndal\libsoundstorage_wav.cpp">
+      <Filter>libsndal\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\Task.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpriteAnimation\SpriteAnimation.cpp">
+      <Filter>SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpriteAnimation\AnimationController.cpp">
+      <Filter>SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpriteAnimation\AnimationManager.cpp">
+      <Filter>SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\CollisionShape.cpp">
+      <Filter>Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\CircleCollision.cpp">
+      <Filter>Collision\Shape\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\RectangleCollision.cpp">
+      <Filter>Collision\Shape\RectangleCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Object\IGettableObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

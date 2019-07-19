@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\appframe.h" />
+    <ClInclude Include="source\Application\ApplicationBase.h" />
+    <ClInclude Include="source\Application\Fps.h" />
+    <ClInclude Include="source\Application\Task.h" />
+    <ClInclude Include="source\Application\UtilMacro.h" />
+    <ClInclude Include="source\Collision\CircleCollision.h" />
+    <ClInclude Include="source\Collision\Collision.h" />
+    <ClInclude Include="source\Collision\CollisionShape.h" />
+    <ClInclude Include="source\Collision\RectangleCollision.h" />
+    <ClInclude Include="source\DirectX\DirectX.h" />
+    <ClInclude Include="source\DirectX\DXDevice.h" />
+    <ClInclude Include="source\DirectX\DXInput.h" />
+    <ClInclude Include="source\DirectX\DXShader.h" />
+    <ClInclude Include="source\FileNames\FileNames.h" />
+    <ClInclude Include="source\Input\InputDevice.h" />
+    <ClInclude Include="source\Input\InputEnum.h" />
+    <ClInclude Include="source\Input\KeyBoardDevice.h" />
+    <ClInclude Include="source\Input\MouseDevice.h" />
+    <ClInclude Include="source\libsndal\libsound.h" />
+    <ClInclude Include="source\libsndal\libsoundbuffer.h" />
+    <ClInclude Include="source\libsndal\libsoundplayer.h" />
+    <ClInclude Include="source\libsndal\libsoundstorage.h" />
+    <ClInclude Include="source\libsndal\libsoundstorage_ogg.h" />
+    <ClInclude Include="source\libsndal\libsoundstorage_wav.h" />
+    <ClInclude Include="source\libsndal\libsoundutil.h" />
+    <ClInclude Include="source\Mode\ModeBase.h" />
+    <ClInclude Include="source\Mode\ModeServer.h" />
+    <ClInclude Include="source\Object\IGettableObject.h" />
+    <ClInclude Include="source\Object\Object.h" />
+    <ClInclude Include="source\Object\ObjectManager.h" />
+    <ClInclude Include="source\SpriteAnimation\AnimationController.h" />
+    <ClInclude Include="source\SpriteAnimation\AnimationManager.h" />
+    <ClInclude Include="source\SpriteAnimation\SpriteAnimation.h" />
+    <ClInclude Include="source\TexturePack\libtexpack.h" />
+    <ClInclude Include="source\Texture\DXTexManager.h" />
+    <ClInclude Include="source\Texture\DXTexPack.h" />
+    <ClInclude Include="source\Texture\DXTexture.h" />
+    <ClInclude Include="source\Texture\Sprite.h" />
+    <ClInclude Include="source\UI\UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Application\ApplicationBase.cpp" />
+    <ClCompile Include="source\Application\Task.cpp" />
+    <ClCompile Include="source\Application\WinMain.cpp" />
+    <ClCompile Include="source\Collision\CircleCollision.cpp" />
+    <ClCompile Include="source\Collision\Collision.cpp" />
+    <ClCompile Include="source\Collision\CollisionShape.cpp" />
+    <ClCompile Include="source\Collision\RectangleCollision.cpp" />
+    <ClCompile Include="source\DirectX\DirectX.cpp" />
+    <ClCompile Include="source\DirectX\DXDevice.cpp" />
+    <ClCompile Include="source\DirectX\DXInput.cpp" />
+    <ClCompile Include="source\DirectX\DXShader.cpp" />
+    <ClCompile Include="source\FileNames\FileNames.cpp" />
+    <ClCompile Include="source\Input\InputDevice.cpp" />
+    <ClCompile Include="source\Input\KeyBoardDevice.cpp" />
+    <ClCompile Include="source\Input\MouseDevice.cpp" />
+    <ClCompile Include="source\libsndal\libsound.cpp" />
+    <ClCompile Include="source\libsndal\libsoundbuffer.cpp" />
+    <ClCompile Include="source\libsndal\libsoundplayer.cpp" />
+    <ClCompile Include="source\libsndal\libsoundstorage.cpp" />
+    <ClCompile Include="source\libsndal\libsoundstorage_ogg.cpp" />
+    <ClCompile Include="source\libsndal\libsoundstorage_wav.cpp" />
+    <ClCompile Include="source\libsndal\libsoundutil.cpp" />
+    <ClCompile Include="source\libsndal\libsrc\libogg\bitwise.c" />
+    <ClCompile Include="source\libsndal\libsrc\libogg\framing.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\block.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\codebook.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\floor0.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\floor1.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\info.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\mapping0.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\mdct.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\registry.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\res012.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\sharedbook.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\synthesis.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\vorbisfile.c" />
+    <ClCompile Include="source\libsndal\libsrc\tremor\window.c" />
+    <ClCompile Include="source\Mode\ModeBase.cpp" />
+    <ClCompile Include="source\Mode\ModeServer.cpp" />
+    <ClCompile Include="source\Object\IGettableObject.cpp" />
+    <ClCompile Include="source\Object\Object.cpp" />
+    <ClCompile Include="source\Object\ObjectManager.cpp" />
+    <ClCompile Include="source\SpriteAnimation\AnimationController.cpp" />
+    <ClCompile Include="source\SpriteAnimation\AnimationManager.cpp" />
+    <ClCompile Include="source\SpriteAnimation\SpriteAnimation.cpp" />
+    <ClCompile Include="source\TexturePack\libtexpack.cpp" />
+    <ClCompile Include="source\Texture\DXTexManager.cpp" />
+    <ClCompile Include="source\Texture\DXTexPack.cpp" />
+    <ClCompile Include="source\Texture\DXTexture.cpp" />
+    <ClCompile Include="source\Texture\Sprite.cpp" />
+    <ClCompile Include="source\UI\UI.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7E045EDF-9B8C-48D6-89BA-86186C1B9F3B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AliceLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib/x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib/x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>source\libsndal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>source\libsndal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
