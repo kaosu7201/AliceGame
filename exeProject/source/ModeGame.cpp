@@ -1,5 +1,5 @@
 #include "ModeGame.h"
-
+#include "ModeTitle.h"
 
 
 ModeGame::ModeGame()
@@ -25,7 +25,17 @@ bool ModeGame::Terminate()
 
 bool ModeGame::Process()
 {
+  _IController *Controller = CDefaultController::GetController();
 	base::Process();
+  if (Controller->GetButtonState(GCBTN_0, JUST_DOWN))
+  {
+    // ‚±‚Ìƒ‚[ƒh‚ðíœ—\–ñ
+    ModeServer::GetInstance()->Del(this);
+    // ŽŸ‚Ìƒ‚[ƒh‚ð“o˜^
+    ModeServer::GetInstance()->Add(new ModeTitle(), 1, "title");
+
+    ObjectManager::delObjectManager("Player");
+  }
 	return true;
 }
 

@@ -7,65 +7,7 @@ c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9typ
   WinMain.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  CircleCollision.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Collision.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  CollisionShape.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  RectangleCollision.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\collision\rectanglecollision.cpp(15): warning C4244: '=': 'LONG' から 'float' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\collision\rectanglecollision.cpp(16): warning C4244: '=': 'LONG' から 'float' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\collision\rectanglecollision.cpp(17): warning C4244: '=': 'LONG' から 'float' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\collision\rectanglecollision.cpp(18): warning C4244: '=': 'LONG' から 'float' への変換です。データが失われる可能性があります。
-  DirectX.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\directx\directx.cpp(51): warning C4101: 'nResult': ローカル変数は 1 度も使われていません。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\directx\directx.cpp(157): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1469): note: 'vsprintf' の宣言を確認してください
-  DXDevice.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  DXInput.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  DXShader.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  FileNames.cpp
-  InputDevice.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  KeyBoardDevice.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  MouseDevice.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  libsound.cpp
-  libsoundbuffer.cpp
-  libsoundplayer.cpp
-  libsoundstorage.cpp
-  libsoundstorage_ogg.cpp
-  コードを生成中...
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\directx\dxdevice.cpp(33): warning C4715: 'DXDevice::Init': 値を返さないコントロール パスがあります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\directx\directx.cpp(136): warning C4715: 'InitStringRender': 値を返さないコントロール パスがあります。
-  コンパイル中...
-  libsoundstorage_wav.cpp
-  libsoundutil.cpp
   ModeBase.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  ModeServer.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  IGettableObject.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   Object.cpp
@@ -77,96 +19,11 @@ c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9typ
   AnimationController.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  AnimationManager.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  SpriteAnimation.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  libtexpack.cpp
   DXTexManager.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  DXTexPack.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\texture\dxtexpack.cpp(95): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\texture\dxtexpack.cpp(115): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
-  DXTexture.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Sprite.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\texture\sprite.cpp(77): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\texture\sprite.cpp(78): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
   UI.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   コードを生成中...
-  bitwise.c
-  framing.c
-  block.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\block.c(404): warning C4244: '初期化中': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\block.c(442): warning C4244: '初期化中': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-  codebook.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\codebook.c(339): warning C4101: 'j': ローカル変数は 1 度も使われていません。
-  floor0.c
-  floor1.c
-  info.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\info.c(36): warning C4244: '=': 'long' から 'char' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\info.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\info.c(63): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\info.c(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' の宣言を確認してください
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\info.c(82): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
-  mapping0.c
-  mdct.c
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1289): warning C4005: 'max': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(61): note: 'max' の以前の定義を確認してください
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1290): warning C4005: 'min': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(57): note: 'min' の以前の定義を確認してください
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\mdct_lookup.h(21): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\mdct_lookup.h(282): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-  registry.c
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1289): warning C4005: 'max': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(61): note: 'max' の以前の定義を確認してください
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1290): warning C4005: 'min': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(57): note: 'min' の以前の定義を確認してください
-  res012.c
-  sharedbook.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\sharedbook.c(393): warning C4244: '=': 'long' から 'char' への変換です。データが失われる可能性があります。
-  synthesis.c
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1289): warning C4005: 'max': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(61): note: 'max' の以前の定義を確認してください
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1290): warning C4005: 'min': マクロが再定義されました。
-  c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\os.h(57): note: 'min' の以前の定義を確認してください
-  vorbisfile.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(268): warning C4244: '=': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(533): warning C4244: 'return': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(560): warning C4244: 'return': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(564): warning C4244: 'return': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(574): warning C4244: 'return': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(636): warning C4244: 'return': 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(866): warning C4244: '関数': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(1004): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' の宣言を確認してください
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(1072): warning C4244: 'return': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(1076): warning C4244: 'return': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(1104): warning C4244: '=': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\vorbisfile.c(1658): warning C4244: '=': 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
-  window.c
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(21): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(32): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(51): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(86): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(153): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(284): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(543): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-c:\users\kaosu\source\repos\kaosu7201\alicegame\alicelibrary\source\libsndal\libsrc\tremor\window_lookup.h(1058): warning C4114: 同じ型の修飾子が 2 度以上使われています。
-  コードを生成中...
-  AliceLibrary.vcxproj -> C:\Users\kaosu\source\repos\kaosu7201\AliceGame\Debug\AliceLibrary.lib
+  AliceLibrary.vcxproj -> C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\AliceLibrary.lib

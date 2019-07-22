@@ -30,7 +30,18 @@ public:
 	}
 
 	static shared_ptr<ObjectManager> CreateObjectManager(string name, ObjectManager *Manager);
-
+  static void delObjectManager(string name)
+  {
+    for (auto itr = ObjectMng.begin(); itr != ObjectMng.end();)
+    {
+      if ((*itr)->szName == name)
+      {
+        ObjectMng.erase(itr);
+        break;
+      }
+      itr++;
+    }
+  }
 	void UpDate() 
 	{
 		for (auto itr = ObjectList.begin(), end_ = ObjectList.end(); itr != end_; itr++) {
