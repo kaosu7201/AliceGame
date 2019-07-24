@@ -16,7 +16,7 @@ public:
 private:
 	list<shared_ptr<Object>> GettableObject();
 	_IController* controller;
-
+  int direction;
 	void Draw();
 };
 

@@ -7,6 +7,7 @@ Player::Player()
 	AnimControll = new AnimationController();
 	AnimControll->pos = &position;
 	_Collision = new CircleCollision(10, &position);
+  direction = 1;
 }
 
 
@@ -24,13 +25,23 @@ void Player::update()
 {
 	if (controller->GetButtonState(GCBTN_LEFT))
 	{
+    direction = -1;
 		position.x -= 3;
 	}
 	if (controller->GetButtonState(GCBTN_RIGHT))
 	{
+    direction = 1;
 		position.x += 3;
 	}
-	AnimControll->PlayAnim("PlayerIdle", 20);
+
+  if (direction == 1)
+  {
+    AnimControll->PlayAnim("PlayerIdleR", 5);
+  }
+  else
+  {
+    AnimControll->PlayAnim("PlayerIdleL", 5);
+  }
 }
 
 list<shared_ptr<Object>> Player::GettableObject() 

@@ -1,14 +1,4 @@
 ﻿  ApplicationMain.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  ModeGame.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  ModeTitle.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Player.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  コードを生成中...
   exeProject.vcxproj -> C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\exeProject.exe
