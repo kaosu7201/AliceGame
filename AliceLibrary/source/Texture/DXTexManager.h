@@ -35,6 +35,11 @@ public:
 		_TexList.push_back(Pack);
 	}
 
+  void AlldelList()
+  {
+    _TexList.clear();
+  }
+
 private:
 	vector<int> TexPackHandle;
 	list<DXTexture*> _TexList;

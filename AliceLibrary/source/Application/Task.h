@@ -9,6 +9,7 @@ public:
 	virtual ~Task();
 	virtual void update();
 	virtual void Render();
+  void ManagerTerminate();
 	static Task *getTask() { return lpTask; }
 
 	list<shared_ptr<ObjectManager>>* ObjManage;

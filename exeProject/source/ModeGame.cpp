@@ -20,6 +20,7 @@ bool ModeGame::Initialize()
 bool ModeGame::Terminate()
 {
 	base::Terminate();
+  Task::getTask()->ManagerTerminate();
 	return true;
 }
 
@@ -33,8 +34,6 @@ bool ModeGame::Process()
     ModeServer::GetInstance()->Del(this);
     // ŽŸ‚Ìƒ‚[ƒh‚ð“o˜^
     ModeServer::GetInstance()->Add(new ModeTitle(), 1, "title");
-
-    ObjectManager::delObjectManager("Player");
   }
 	return true;
 }

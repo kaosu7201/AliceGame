@@ -22,6 +22,10 @@ public:
 			(*itr)->Draw();
 		}
 	}
+  void AlldelList()
+  {
+    AnimControllList.clear();
+  }
 private:
 	list<shared_ptr<AnimationController>> AnimControllList;
 	static AnimationManager* AnimationMng;

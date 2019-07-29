@@ -8,8 +8,9 @@ ApplicationMain				g_oApplicationMain;
 bool ApplicationMain::Initialize(HINSTANCE hInstance) {
 	if (!base::Initialize(hInstance)) { return false; }
 	DXTexManager::GetManagerInstance()->CreateTexturePack("res/TexPack/");
-	SpriteAnimation::addAnimePack("PlayerIdleR", "res/Texture/Player/reimu_Idle.png", 128, 128, 1);
-  SpriteAnimation::addAnimePack("PlayerIdleL", "res/Texture/Player/reimu_Idle_L.png", 64, 64, 4);
+  DXTexManager::GetManagerInstance()->CreateTexturePack("res/TexPack/Player/");
+	SpriteAnimation::addAnimePack("PlayerIdleR", "res/Texture/Player/reimu.png", 128, 128, 1);
+  SpriteAnimation::addAnimePack("PlayerIdleL", "res/Texture/Player/reimu_Idle_L.png", 128, 128, 11);
 	SpriteAnimation::addAnimePack("EnemyIdle", "res/Texture/Enemy/Idle.png", 64, 64, 1);
 	// ƒ‚[ƒh‚Ì“o˜^
 	ModeServer::GetInstance()->Add(new ModeTitle(), 1, "title");

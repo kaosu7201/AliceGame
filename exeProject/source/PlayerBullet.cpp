@@ -1,10 +1,8 @@
 #include "PlayerBullet.h"
 
-list<shared_ptr<PlayerBullet>> PlayerBullet::Bullets;
-
 PlayerBullet::PlayerBullet()
 {
-	Bullets.push_back(shared_ptr<PlayerBullet>(this));
+
 }
 
 

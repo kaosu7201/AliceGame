@@ -44,3 +44,10 @@ void Task::Render()
 	}
 }
 
+void Task::ManagerTerminate()
+{
+  ObjectManager::AllDelManager();
+  TexManage->AlldelList();
+  AnimManage->AlldelList();
+}
+

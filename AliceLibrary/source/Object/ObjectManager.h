@@ -42,6 +42,10 @@ public:
       itr++;
     }
   }
+  static void AllDelManager()
+  {
+    ObjectMng.clear();
+  }
 	void UpDate() 
 	{
 		for (auto itr = ObjectList.begin(), end_ = ObjectList.end(); itr != end_; itr++) {

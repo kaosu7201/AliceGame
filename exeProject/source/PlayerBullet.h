@@ -12,6 +12,5 @@ public:
 
 private:
 	void Draw();
-	static list<shared_ptr<PlayerBullet>> Bullets;
 };
 

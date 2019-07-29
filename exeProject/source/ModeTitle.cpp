@@ -1,7 +1,7 @@
 #include "ModeTitle.h"
 #include "ModeGame.h"
 #include "Player.h"
-
+#include "Enemy.h"
 ModeTitle::ModeTitle()
 {
 }
@@ -39,6 +39,8 @@ bool	ModeTitle::Process()
 
 		ObjectManager::CreateObjectManager("Player", new ObjectManager());
 		ObjectManager::addObject(new Player(), "Player");
+    ObjectManager::CreateObjectManager("Enemy", new ObjectManager());
+    ObjectManager::addObject(new Enemy(), "Enemy");
 	}
 	return true;
 }
