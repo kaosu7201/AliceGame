@@ -36,11 +36,11 @@ void Player::update()
 
   if (direction == 1)
   {
-    AnimControll->PlayAnim("PlayerIdleR", 5);
+    AnimControll->PlayAnim("PlayerIdleR", 6);
   }
   else
   {
-    AnimControll->PlayAnim("PlayerIdleL", 5);
+    AnimControll->PlayAnim("PlayerIdleL", 6);
   }
 }
 
