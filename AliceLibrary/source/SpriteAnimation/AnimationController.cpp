@@ -20,13 +20,16 @@ AnimationController::~AnimationController()
 
 void AnimationController::update()
 {
-	Calc();
+  if (playflag == true)
+  {
+    Calc();
+  }
 }
 
 
 void AnimationController::Draw()
 {
-	if (name != "") {
+	if (name != "" && drawflag == true) {
 		SpriteAnimation::Draw(name, no, pos->x, pos->y);
 	}
 }
