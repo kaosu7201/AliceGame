@@ -9,6 +9,7 @@ Enemy::Enemy()
   AnimControll->pos = &position;
   _Collision = new CircleCollision(10, &position);
   direction = 1;
+  AnimControll->setFlag(true, true);
 }
 
 
