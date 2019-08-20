@@ -2,7 +2,6 @@
 #include "../DirectX/DirectX.h"
 #include <list>
 
-class CircleCollision;
 class Collision2D
 {
 public:
