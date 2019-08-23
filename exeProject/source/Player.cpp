@@ -23,26 +23,30 @@ void Player::start()
 
 void Player::update()
 {
-	if (controller->GetButtonState(GCBTN_LEFT))
-	{
-    direction = -1;
-		position.x -= 3;
-	}
-	if (controller->GetButtonState(GCBTN_RIGHT))
-	{
-    direction = 1;
-		position.x += 3;
-	}
-
-  if (direction == 1)
+  if (controller->GetButtonState(GCBTN_LEFT))
   {
-    AnimControll->PlayAnim("PlayerIdleR", 8);
-    AnimControll->setFlag(true, true);
+    AnimControll->PlayAnim("PlayerWalkL", 4);
+    direction = -1;
+    position.x -= 5;
+  }
+  else if (controller->GetButtonState(GCBTN_RIGHT))
+  {
+    AnimControll->PlayAnim("PlayerWalkR", 4);
+    direction = 1;
+    position.x += 5;
   }
   else
   {
-    AnimControll->PlayAnim("PlayerIdleL", 8);
-    AnimControll->setFlag(true, true);
+    if (direction == 1)
+    {
+      AnimControll->PlayAnim("PlayerIdleR", 4);
+      AnimControll->setFlag(true, true);
+    }
+    else
+    {
+      AnimControll->PlayAnim("PlayerIdleL", 4);
+      AnimControll->setFlag(true, true);
+    }
   }
 }
 

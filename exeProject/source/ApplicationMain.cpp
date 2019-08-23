@@ -11,6 +11,8 @@ bool ApplicationMain::Initialize(HINSTANCE hInstance) {
   DXTexManager::GetManagerInstance()->CreateTexturePack("res/TexPack/Player/");
   SpriteAnimation::addAnimePack("PlayerIdleL", "res/Texture/Player/reimu_Idle_L.png", 128, 128, 11);
   SpriteAnimation::addAnimePack("PlayerIdleR", "res/Texture/Player/reimu_Idle_R.png", 128, 128, 11);
+  SpriteAnimation::addAnimePack("PlayerWalkL", "res/Texture/Player/reimu_Walk_L.png", 128, 128, 10);
+  SpriteAnimation::addAnimePack("PlayerWalkR", "res/Texture/Player/reimu_Walk_R.png", 128, 128, 10);
 
   SpriteAnimation::addAnimePack("EnemyIdle", "res/Texture/Enemy/Idle.png", 64, 64, 1);
 	// ÉÇÅ[ÉhÇÃìoò^
