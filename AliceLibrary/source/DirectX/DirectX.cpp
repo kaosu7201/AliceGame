@@ -125,6 +125,20 @@ bool TextureLoad(LPCSTR pSrcFile, LPDIRECT3DTEXTURE9 *pTexture) {
 	return true;
 }
 
+bool TextureLoad(LPCSTR pSrcFile, LPDIRECT3DTEXTURE9 *pTexture, int Width,int Height)
+{
+  DXDevice *appDevice = DXDevice::GetDevice();
+  // 「テクスチャオブジェクト」の作成
+  if (FAILED(D3DXCreateTextureFromFileEx(appDevice->pDevice, pSrcFile, Width, Height, 0, 0, D3DFMT_UNKNOWN,
+    D3DPOOL_DEFAULT, D3DX_FILTER_NONE, D3DX_DEFAULT,
+    0xff000001, NULL, NULL, pTexture)))
+  {
+    MessageBox(0, "テクスチャの作成に失敗しました", "", MB_OK);
+    return false;
+  }
+  return true;
+}
+
 HRESULT InitStringRender() {
 	DXDevice *appDevice = DXDevice::GetDevice();
 	//文字列レンダリングの初期化

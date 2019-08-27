@@ -30,6 +30,7 @@ int ProcessEvent();
 int HCls(void);
 int Flip(void);
 bool TextureLoad(LPCSTR pSrcFile, LPDIRECT3DTEXTURE9 *pTexture);
+bool TextureLoad(LPCSTR pSrcFile, LPDIRECT3DTEXTURE9 *pTexture, int Width, int Height);
 
 HRESULT InitStringRender();
 void DrawPrintf(int x, int y, int nColor, const char *fmt, ...);

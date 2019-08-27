@@ -74,8 +74,8 @@ void Sprite::setSize(int w, int h) {
 
 // 板ポリサイズ指定
 void Sprite::setPivot(float x, float y) {
-	polyW = x;
-	polyH = y;
+  pivotX = x;
+  pivotY = y;
 }
 
 void Sprite::getPivot(float * x, float * y)
@@ -317,7 +317,6 @@ void Sprite::drawAll() {
 		effect->SetFloat("uv_height", sp->uvH);
 		effect->SetFloat("alpha", sp->alpha);
 		effect->CommitChanges();
-
 		dev->DrawPrimitive(D3DPT_TRIANGLESTRIP, 0, 2);
 	}
 

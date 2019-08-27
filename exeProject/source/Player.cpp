@@ -27,13 +27,13 @@ void Player::update()
   {
     AnimControll->PlayAnim("PlayerWalkL", 4);
     direction = -1;
-    position.x -= 5;
+    position.x -= 5.0f;
   }
   else if (controller->GetButtonState(GCBTN_RIGHT))
   {
     AnimControll->PlayAnim("PlayerWalkR", 4);
     direction = 1;
-    position.x += 5;
+    position.x += 5.0f;
   }
   else
   {
@@ -57,5 +57,5 @@ list<shared_ptr<Object>> Player::GettableObject()
 
 void Player::Draw()
 {
-
+  
 }

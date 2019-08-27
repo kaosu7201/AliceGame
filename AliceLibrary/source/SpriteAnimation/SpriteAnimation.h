@@ -7,6 +7,8 @@ struct TexAnimePack
 	int SplitNum;
 	int width;
 	int height;
+  int width_num;
+  int height_num;
 	LPDIRECT3DTEXTURE9 texture;
 	D3DSURFACE_DESC desc;
 };

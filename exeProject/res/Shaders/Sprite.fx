@@ -31,7 +31,6 @@ VS_OUT vs_main(VS_IN In) {
 	Out.pos = mul(float4(In.pos, 1.0f), world);
 	Out.pos = mul(Out.pos, proj);
 	Out.uv = In.uv * float2(uv_width, uv_height) + float2(uv_left, uv_top);
-
 	return Out;
 }
 
