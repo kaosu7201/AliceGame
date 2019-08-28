@@ -23,6 +23,7 @@ void Task::update()
 			(*itr)->UpDate();
 		}
 	}
+  ApplicationBase::GetInstance()->GetCamera()->update();
 	if (AnimManage) {
 		AnimManage->UpDate();
 	}

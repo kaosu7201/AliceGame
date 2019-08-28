@@ -24,6 +24,9 @@
     <Filter Include="ソース ファイル\Application">
       <UniqueIdentifier>{a9d23ec0-11cb-44ba-9665-9dd67f5a27f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Map">
+      <UniqueIdentifier>{98aaa282-638c-425e-adaf-46fcf531e957}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\Player.cpp">
@@ -47,6 +50,9 @@
     <ClCompile Include="source\ModeTitle.cpp">
       <Filter>ソース ファイル\Application</Filter>
     </ClCompile>
+    <ClCompile Include="source\Map.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Player.h">
@@ -69,6 +75,9 @@
     </ClInclude>
     <ClInclude Include="source\ModeGame.h">
       <Filter>ソース ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Map.h">
+      <Filter>ソース ファイル\Map</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -37,6 +37,7 @@ bool	ModeTitle::Process()
 		// ŽŸ‚Ìƒ‚[ƒh‚ð“o˜^
 		ModeServer::GetInstance()->Add(new ModeGame(), 1, "game");
 
+    ObjectManager::CreateObjectManager("Map", new ObjectManager());
 		ObjectManager::CreateObjectManager("Player", new ObjectManager());
 		ObjectManager::addObject(new Player(), "Player");
     ObjectManager::CreateObjectManager("Enemy", new ObjectManager());

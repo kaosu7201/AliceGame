@@ -11,7 +11,7 @@ public:
 	virtual void start() = 0;
 	virtual void update() = 0;
 	virtual void Draw() = 0;
-
+  void scPosCalc();
 	void SetPos(float x, float y, float z) {
 		position.x = x;
 		position.y = y;
@@ -30,7 +30,10 @@ protected:
 	bool Flag;
 	bool startFlag;
 
-	D3DXVECTOR3 position;
+	D3DXVECTOR3 position; //ワールド座標
+  D3DXVECTOR3 scPos;    //スクリーン座標
+  float vx, vy;
+
 	AnimationController* AnimControll;
 	Collision2D* _Collision;
 };

@@ -5,9 +5,10 @@ Player::Player()
 	ObjID = "Player";
 	controller = CDefaultController::GetController();
 	AnimControll = new AnimationController();
-	AnimControll->pos = &position;
+  AnimControll->pos = &scPos;
 	_Collision = new CircleCollision(10, &position);
   direction = 1;
+  ApplicationBase::GetInstance()->GetCamera()->setTargetPos(&position);
 }
 
 

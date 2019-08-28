@@ -7,6 +7,7 @@
 ApplicationMain				g_oApplicationMain;
 bool ApplicationMain::Initialize(HINSTANCE hInstance) {
 	if (!base::Initialize(hInstance)) { return false; }
+  CameraObject = new Camera2D();
 	DXTexManager::GetManagerInstance()->CreateTexturePack("res/TexPack/");
   DXTexManager::GetManagerInstance()->CreateTexturePack("res/TexPack/Player/");
   SpriteAnimation::addAnimePack("PlayerIdleL", "res/Texture/Player/reimu_Idle_L.png", 128, 128, 11);

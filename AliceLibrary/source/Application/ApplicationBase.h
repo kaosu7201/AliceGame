@@ -6,6 +6,7 @@
 #include "../DirectX/DirectX.h"
 #include "../Mode//ModeServer.h"
 
+class Camera;
 
 class ApplicationBase
 {
@@ -27,11 +28,12 @@ public:
 	static	ApplicationBase	*GetInstance() { return _lpInstance; }
 	virtual int GetKey() { return _key; }
 	virtual int GetTrg() { return _trg; }
+  Camera* GetCamera() { return CameraObject; }
 
 protected:
 	static	ApplicationBase	*_lpInstance;
-
 	int		_key, _trg;
+  Camera *CameraObject;
 
 private:
 	ModeServer *_serverMode;

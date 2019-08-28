@@ -2,6 +2,7 @@
 #include "../Object/ObjectManager.h"
 #include "../Texture/DXTexManager.h"
 #include "../SpriteAnimation/AnimationManager.h"
+#include "../Camera/Camera.h"
 class Task
 {
 public:

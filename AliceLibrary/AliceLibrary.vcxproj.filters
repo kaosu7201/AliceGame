@@ -59,6 +59,9 @@
     <Filter Include="Collision\Shape\RectangleCollision">
       <UniqueIdentifier>{e5563214-11bd-4d6a-b3ba-dafd8aae204e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{0f3c3123-9d0b-4d22-b272-b8c624a79565}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\DirectX\DXDevice.h">
@@ -175,6 +178,9 @@
     </ClInclude>
     <ClInclude Include="source\Object\IGettableObject.h">
       <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera\Camera.h">
+      <Filter>Camera</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -330,6 +336,9 @@
     </ClCompile>
     <ClCompile Include="source\Object\IGettableObject.cpp">
       <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

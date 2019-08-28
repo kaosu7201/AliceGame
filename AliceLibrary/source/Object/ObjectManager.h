@@ -61,6 +61,7 @@ public:
 	void Draw()
 	{
 		for (auto itr = ObjectList.begin(), end_ = ObjectList.end(); itr != end_; itr++) {
+      (*itr)->scPosCalc();
 			(*itr)->Draw();
 		}
 	}
