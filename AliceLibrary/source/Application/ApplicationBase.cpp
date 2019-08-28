@@ -1,6 +1,6 @@
 
 #include "../appframe.h"
-
+#include "../Camera/Camera.h"
 ApplicationBase	*ApplicationBase::_lpInstance = NULL;
 
 

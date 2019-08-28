@@ -22,6 +22,7 @@
     <ClCompile Include="source\ApplicationMain.cpp" />
     <ClCompile Include="source\Bullet.cpp" />
     <ClCompile Include="source\Enemy.cpp" />
+    <ClCompile Include="source\Map.cpp" />
     <ClCompile Include="source\ModeGame.cpp" />
     <ClCompile Include="source\ModeTitle.cpp" />
     <ClCompile Include="source\Player.cpp" />
@@ -31,6 +32,7 @@
     <ClInclude Include="source\ApplicationMain.h" />
     <ClInclude Include="source\Bullet.h" />
     <ClInclude Include="source\Enemy.h" />
+    <ClInclude Include="source\Map.h" />
     <ClInclude Include="source\ModeGame.h" />
     <ClInclude Include="source\ModeTitle.h" />
     <ClInclude Include="source\Player.h" />

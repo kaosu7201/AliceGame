@@ -7,7 +7,7 @@ public:
 	void update();
 
 	void Draw();
-	D3DXVECTOR3* pos;
+	const D3DXVECTOR3* pos;
 
 	void PlayAnim(string name, int SwFrame) {
 		if (this->name != name) {

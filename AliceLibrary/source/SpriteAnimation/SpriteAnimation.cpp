@@ -65,9 +65,9 @@ void SpriteAnimation::Draw(string name, int Index, float x,float y)
 	int height = AnimPack[name].desc.Height / AnimPack[name].height;
 	sprite.setScreenSize(1280, 720);
   sprite.setUV((1.0f / width) * (Index % AnimPack[name].width_num), (1.0f / height) * (Index / AnimPack[name].width_num), (1.0f / width), (1.0f / height));
-  sprite.setRotate(D3DX_PI / 2);
 	sprite.setPriority(1.0f);
-	sprite.setPos(x, y);
+  //sprite.setScale(4.0f, 4.0f);
+	sprite.setPos(x - AnimPack[name].width / 2, y - AnimPack[name].height / 2);
   sprite.draw();
 	Sprite::drawAll();
 	Sprite::clearDrawList();

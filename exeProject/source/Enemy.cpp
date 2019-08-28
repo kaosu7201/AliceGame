@@ -6,7 +6,7 @@ Enemy::Enemy()
 {
   ObjID = "Enemy";
   AnimControll = new AnimationController();
-  AnimControll->pos = &position;
+  AnimControll->pos = &scPos;
   _Collision = new CircleCollision(10, &position);
   direction = 1;
   AnimControll->setFlag(true, true);
