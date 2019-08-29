@@ -8,3 +8,10 @@ public:
   virtual ~Map();
 
 };
+
+class MapCreate
+{
+public:
+  static void SaveMapData();
+  static void LoadMapData();
+};
