@@ -16,6 +16,7 @@ bool ApplicationMain::Initialize(HINSTANCE hInstance) {
   SpriteAnimation::addAnimePack("PlayerWalkR", "res/Texture/Player/reimu_Walk_R.png", 128, 128, 10);
 
   SpriteAnimation::addAnimePack("EnemyIdle", "res/Texture/Enemy/Idle.png", 64, 64, 1);
+  SpriteAnimation::addAnimePack("Mapchip", "res/Texture/Map/mapchip.png", 64, 64, 32);
 	// ƒ‚[ƒh‚Ì“o˜^
 	ModeServer::GetInstance()->Add(new ModeTitle(), 1, "title");
 
