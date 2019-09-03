@@ -3,4 +3,4 @@ c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9typ
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
 Debug\Lua.obj : warning LNK4042: オブジェクトの指定が重複しています。余分なものは無視されます。
 WinMain.obj : warning LNK4006: _WinMain@16 は wmain.obj で定義されています。2 つ目以降の定義は無視されます。
-  AliceLibrary.vcxproj -> C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\AliceLibrary.lib
+  AliceLibrary.vcxproj -> C:\Users\kaosu\source\repos\kaosu7201\AliceGame\Debug\AliceLibrary.lib
