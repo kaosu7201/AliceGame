@@ -19,7 +19,7 @@ Player::~Player()
 void Player::start()
 {
 	position.x = 1280 / 2;
-	position.y = 720 - 200;
+	position.y = 0;
 }
 
 void Player::update()

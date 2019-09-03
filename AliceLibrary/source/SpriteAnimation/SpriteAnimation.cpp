@@ -67,7 +67,7 @@ void SpriteAnimation::Draw(string name, int Index, float x,float y)
   sprite.setUV((1.0f / width) * (Index % AnimPack[name].width_num), (1.0f / height) * (Index / AnimPack[name].width_num), (1.0f / width), (1.0f / height));
 	sprite.setPriority(1.0f);
   //sprite.setScale(4.0f, 4.0f);
-	sprite.setPos(x - AnimPack[name].width / 2, y - AnimPack[name].height / 2);
+	sprite.setPos(x, y);
   sprite.draw();
 	Sprite::drawAll();
 	Sprite::clearDrawList();

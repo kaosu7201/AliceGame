@@ -62,6 +62,12 @@
     <Filter Include="Camera">
       <UniqueIdentifier>{0f3c3123-9d0b-4d22-b272-b8c624a79565}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lua5.1">
+      <UniqueIdentifier>{428b9b79-c9f9-4d9a-afcd-040f9d7dbd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{94f94249-653f-4cf6-ac34-73d994ed137c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\DirectX\DXDevice.h">
@@ -181,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="source\Camera\Camera.h">
       <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Lua\Lua.h">
+      <Filter>Lua</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -339,6 +348,108 @@
     </ClCompile>
     <ClCompile Include="source\Camera\Camera.cpp">
       <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\luac.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lvm.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lzio.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\print.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\wmain.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lapi.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lauxlib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lbaselib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lcode.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ldblib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ldebug.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ldo.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ldump.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lfunc.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lgc.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\linit.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\liolib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\llex.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lmathlib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lmem.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\loadlib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lobject.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lopcodes.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\loslib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lparser.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lstate.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lstring.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lstrlib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ltable.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ltablib.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\ltm.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lua.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lua5.1\src\lundump.c">
+      <Filter>Lua5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Lua\Lua.cpp">
+      <Filter>Lua</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
