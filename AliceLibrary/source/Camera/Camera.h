@@ -7,6 +7,7 @@ struct CameraInfo
   float vx, vy, vz;
   D3DXVECTOR3 position;
   const D3DXVECTOR3* target;
+  int rangeX, rangeY;
   bool _2DFlag;
   bool FollowFlag;
 };
@@ -20,6 +21,11 @@ public:
   virtual void update() = 0;
   virtual void setScreenWH(int Width, int Height) = 0;
   virtual void setTargetPos(D3DXVECTOR3* pos) = 0;
+  virtual void setRange(int x, int y) 
+  { 
+    Info.rangeX = x; 
+    Info.rangeY = y;
+  }
   CameraInfo getInfo() { return Info; }
 protected:
   CameraInfo Info;

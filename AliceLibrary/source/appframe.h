@@ -20,4 +20,4 @@
 #include "Texture/DXTexManager.h"
 #include "Object/ObjectManager.h"
 #include "libsndal/libsound.h"
-#include "lua5.1/include/lua.hpp"
+#include "Lua/Lua.h"

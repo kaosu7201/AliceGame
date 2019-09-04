@@ -12,6 +12,8 @@ Camera::Camera()
   this->Info.vx = 0;
   this->Info.vy = 0;
   this->Info.vz = 0;
+  this->Info.rangeX = app->DispSizeW();;
+  this->Info.rangeY = app->DispSizeH();
 }
 
 Camera::~Camera()
@@ -46,6 +48,14 @@ void Camera2D::update()
   if (Info.position.y - Info.ScreenHeight / 2 < 0)
   {
     Info.position.y = 0 + Info.ScreenHeight / 2;
+  }
+  if (Info.position.x + Info.ScreenWidth / 2 > Info.rangeX)
+  {
+    Info.position.x = Info.rangeX - Info.ScreenWidth / 2;
+  }
+  if (Info.position.y + Info.ScreenHeight / 2 > Info.rangeY)
+  {
+    Info.position.y = Info.rangeY - Info.ScreenHeight / 2;
   }
 }
 

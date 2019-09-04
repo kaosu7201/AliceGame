@@ -60,7 +60,7 @@ void SpriteAnimation::Draw(string name, int Index, float x,float y)
 		Index = AnimPack[name].SplitNum - 1;
 	}
 	sprite.setTexture(AnimPack[name].texture, false);
-	sprite.setSize(AnimPack[name].width + 1, AnimPack[name].height + 1);
+	sprite.setSize(AnimPack[name].width + 0, AnimPack[name].height + 0);
 	int width = AnimPack[name].desc.Width / AnimPack[name].width;
 	int height = AnimPack[name].desc.Height / AnimPack[name].height;
 	sprite.setScreenSize(1280, 720);

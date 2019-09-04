@@ -11,6 +11,19 @@ Player::Player()
   ApplicationBase::GetInstance()->GetCamera()->setTargetPos(&position);
 }
 
+Player::Player(float x, float y)
+{
+  ObjID = "Player";
+  position.x = x;
+  position.y = y;
+  controller = CDefaultController::GetController();
+  AnimControll = new AnimationController();
+  AnimControll->pos = &scPos;
+  _Collision = new CircleCollision(10, &position);
+  direction = 1;
+  ApplicationBase::GetInstance()->GetCamera()->setTargetPos(&position);
+}
+
 
 Player::~Player()
 {
@@ -18,8 +31,7 @@ Player::~Player()
 
 void Player::start()
 {
-	position.x = 1280 / 2;
-	position.y = 0;
+	
 }
 
 void Player::update()
@@ -58,5 +70,5 @@ list<shared_ptr<Object>> Player::GettableObject()
 
 void Player::Draw()
 {
-  
+  scPos.y += 4;
 }
