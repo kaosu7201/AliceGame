@@ -24,7 +24,7 @@ void MapCreate::LoadMapData()
   Lua lua;
   lua.openfile("res/MapData/map2.lua");
   int w, h, tw, th;
-  const char* ko = lua["version"].get<const char*>();
+  w = lua["width"].get<int>();
   h = lua["height"].get<int>();
   tw = lua["tilewidth"].get<int>();
   th = lua["tileheight"].get<int>();

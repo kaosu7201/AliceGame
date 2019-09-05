@@ -15,5 +15,4 @@ c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(46):
           [
               _Ty=int
           ]
-c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(33): warning C4700: 初期化されていないローカル変数 'w' が使用されます
   exeProject.vcxproj -> C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\exeProject.exe
