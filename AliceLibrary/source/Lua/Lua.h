@@ -13,10 +13,19 @@ public:
   void close() { lua_close(L); }
 
   template<typename T>
-  T get()
+  T get() {}
+  template<>
+  int get<int>()
   {
-    T ret;
-    ret = lua_tointeger(L, lua_gettop(L));
+      int ret = lua_tointeger(L, lua_gettop(L));
+      lua_settop(L, 1);
+      return ret;
+  }
+  template<>
+  const char* get<const char*>()
+  {
+    int a = lua_type(L, lua_gettop(L));
+    const char* ret = lua_tostring(L, lua_gettop(L));
     lua_settop(L, 1);
     return ret;
   }
@@ -45,6 +54,7 @@ public:
   {
     lua_getfield(L, lua_gettop(L), str);
     fieldindex = lua_gettop(L);
+    int a = lua_type(L, lua_gettop(L));
     return *this;
   }
 

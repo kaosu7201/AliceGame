@@ -5,7 +5,7 @@ c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.h(15): warni
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(11): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(12): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(49): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(37): warning C4244: '=': 'lua_Number' から '_Ty' への変換です。データが失われる可能性があります。
+c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(46): warning C4244: '=': 'lua_Number' から '_Ty' への変換です。データが失われる可能性があります。
           with
           [
               _Ty=int
@@ -15,13 +15,5 @@ c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(37):
           [
               _Ty=int
           ]
-  ModeTitle.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.h(15): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
-  Player.cpp
-c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
-  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  コードを生成中...
-  LINK : 前回のインクリメンタル リンクで C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\exeProject.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(33): warning C4700: 初期化されていないローカル変数 'w' が使用されます
   exeProject.vcxproj -> C:\Users\amg\source\repos\kaosu7201\AliceGame\Debug\exeProject.exe

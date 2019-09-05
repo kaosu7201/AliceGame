@@ -22,9 +22,9 @@ void MapCreate::LoadMapData()
 {
   vector<vector<int>> layers;
   Lua lua;
-  lua.openfile("res/MapData/map1.lua");
+  lua.openfile("res/MapData/map2.lua");
   int w, h, tw, th;
-  w = lua["width"].get<int>();
+  const char* ko = lua["version"].get<const char*>();
   h = lua["height"].get<int>();
   tw = lua["tilewidth"].get<int>();
   th = lua["tileheight"].get<int>();
