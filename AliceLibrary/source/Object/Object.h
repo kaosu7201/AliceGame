@@ -32,6 +32,7 @@ protected:
 
 	D3DXVECTOR3 position; //ワールド座標
   D3DXVECTOR3 scPos;    //スクリーン座標
+  D3DXVECTOR3 pivot;
   float vx, vy;
 
 	AnimationController* AnimControll;

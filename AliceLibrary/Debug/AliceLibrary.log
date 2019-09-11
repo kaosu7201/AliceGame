@@ -7,8 +7,22 @@ c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9typ
   WinMain.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Lua.cpp
+  ModeBase.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  IGettableObject.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Object.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  ObjectManager.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   AnimationController.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  DXTexManager.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   UI.cpp

@@ -4,13 +4,13 @@ c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9typ
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.h(15): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(11): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
 c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(12): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(49): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(53): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
 c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(46): warning C4244: '=': 'lua_Number' から '_Ty' への変換です。データが失われる可能性があります。
           with
           [
               _Ty=int
           ]
-  c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(35): note: コンパイル対象の関数 テンプレート インスタンス化 'std::vector<int,std::allocator<_Ty>> Lua::getarray<int>(const char *,int)' のリファレンスを確認してください
+  c:\users\amg\source\repos\kaosu7201\alicegame\exeproject\source\map.cpp(39): note: コンパイル対象の関数 テンプレート インスタンス化 'std::vector<int,std::allocator<_Ty>> Lua::getarray<int>(const char *,int)' のリファレンスを確認してください
           with
           [
               _Ty=int

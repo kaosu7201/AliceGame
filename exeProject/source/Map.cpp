@@ -18,6 +18,13 @@ Map::~Map()
 {
 }
 
+void setRange(int width, int height, int tilewidth, int tileheight)
+{
+ApplicationBase *appbase = ApplicationBase::GetInstance();
+  Camera *camera = appbase->GetCamera();
+  camera->setRange((width*tilewidth /appbase->DispSizeW())*appbase->DispSizeW(), (height*tileheight / appbase->DispSizeH())*appbase->DispSizeH());
+}
+
 void MapCreate::LoadMapData()
 {
   vector<vector<int>> layers;
@@ -28,10 +35,7 @@ void MapCreate::LoadMapData()
   h = lua["height"].get<int>();
   tw = lua["tilewidth"].get<int>();
   th = lua["tileheight"].get<int>();
-  ApplicationBase *appbase = ApplicationBase::GetInstance();
-  Camera *camera = appbase->GetCamera();
-  camera->setRange((w*tw/appbase->DispSizeW())*appbase->DispSizeW(), (h*th / appbase->DispSizeH())*appbase->DispSizeH());
-
+  setRange(w, h, tw, th);
   vector<int> a = lua["layers"][1].getarray<int>("data", w*h);
   vector<int> b = lua["layers"][2].getarray<int>("data", w*h);
   for (int i = 0; i < w * h; i++)
