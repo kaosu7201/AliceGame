@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "../lua5.1/include/lua.hpp"
 #include <vector>
+#include "../DirectX/DirectX.h"
 using namespace std;
 class Lua
 {
@@ -29,25 +30,35 @@ public:
     lua_settop(L, 1);
     return ret;
   }
+
   template<typename T1>
-  vector<T1> getarray(const char *s, int num)
+  vector<T1> getarray() {}
+  template<>
+  vector<int> getarray<int>()
   {
-    vector<T1> ret(num);
-    lua_getfield(L, fieldindex, s);
+    vector<int> ret;
     fieldindex = lua_gettop(L);
-    for (int i = 0; i < num; i++)
+    lua_pushnil(L);
+    int i = 0;
+    while(lua_next(L, fieldindex) != 0)
     {
-      lua_pushnumber(L, i + 1);
-      lua_gettable(L, fieldindex);
-      if (lua_type(L, lua_gettop(L)) == 0)
-      {
-        lua_settop(L, 1);
-      }
-      ret[i] = lua_tonumber(L, lua_gettop(L));
+      ret.push_back(lua_tonumber(L, lua_gettop(L)));
       lua_pop(L, 1);
+      i++;
     }
     lua_settop(L, 1);
     return ret;
+  }
+
+  bool getPresence()
+  {
+    bool f = false;
+    if (!lua_isnil(L, lua_gettop(L)))
+    {
+      f = true;
+    }
+    lua_settop(L, 1);
+    return f;
   }
 
   Lua& operator[](const char* str)
@@ -63,10 +74,6 @@ public:
     lua_pushnumber(L, i);
     lua_gettable(L, fieldindex);
     fieldindex = lua_gettop(L);
-    if (lua_type(L, fieldindex) == 0)
-    {
-      lua_settop(L, 1);
-    }
     return *this;
   }
 

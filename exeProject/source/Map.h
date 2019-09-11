@@ -28,5 +28,6 @@ private:
 class MapCreate
 {
 public:
+  static void CreateMap(vector<vector<int>> data, int w, int h, int tw, int th);
   static void LoadMapData();
 };
