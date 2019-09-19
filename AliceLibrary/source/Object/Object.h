@@ -17,6 +17,10 @@ public:
 		position.y = y;
 		position.z = z;
 	}
+  D3DXVECTOR3 GetPos()
+  {
+    return position;
+  }
 	void SetPos(D3DXVECTOR3 vec) {
 		position = vec;
 	}
