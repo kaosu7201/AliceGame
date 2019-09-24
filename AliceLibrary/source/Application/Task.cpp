@@ -5,7 +5,7 @@ Task* Task::lpTask = NULL;
 Task::Task()
 {
 	lpTask = this;
-	ObjManage = ObjectManager::GetManager();
+	ObjManage = new ObjectManager();
 	TexManage = new DXTexManager();
 	AnimManage = new AnimationManager();
 }
@@ -19,9 +19,7 @@ Task::~Task()
 void Task::update()
 {
 	if (ObjManage) {
-		for(auto itr = ObjManage->begin(), end_ = ObjManage->end(); itr != end_; itr++) {
-			(*itr)->UpDate();
-		}
+    ObjManage->UpDate();
 	}
   ApplicationBase::GetInstance()->GetCamera()->update();
 	if (AnimManage) {
@@ -33,9 +31,7 @@ void Task::update()
 void Task::Render()
 {
 	if (ObjManage) {
-		for(auto itr = ObjManage->begin(), end_ = ObjManage->end(); itr != end_; itr++) {
-			(*itr)->Draw();
-		}
+    ObjManage->Draw();
 	}
 	if (TexManage) {
 		TexManage->Draw();
@@ -47,7 +43,7 @@ void Task::Render()
 
 void Task::ManagerTerminate()
 {
-  ObjectManager::AllDelManager();
+  ObjManage->AlldelList();
   TexManage->AlldelList();
   AnimManage->AlldelList();
 }

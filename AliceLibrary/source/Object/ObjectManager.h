@@ -11,41 +11,23 @@ class ObjectManager
 {
 private:
 	string szName;
-	static list<shared_ptr<ObjectManager>> ObjectMng;
+	static ObjectManager* ObjectMng;
 	list<shared_ptr<Object>> ObjectList;
 public:
-	static list<shared_ptr<ObjectManager>>* GetManager() { return &ObjectMng; }
+	static ObjectManager* GetManager() { return ObjectMng; }
 	ObjectManager();
 	virtual ~ObjectManager();
 
-	static void addObject(Object* pObj, string name) 
-	{  
-		for(auto itr = ObjectMng.begin(), end_ = ObjectMng.end(); itr != end_; itr++)
-		{
-			if((*itr)->szName == name)
-			{
-				(*itr)->ObjectList.push_back(shared_ptr<Object>(pObj));
-			}
-		}
-	}
+  static void addObject(Object* pObj)
+  {
+    ObjectMng->ObjectList.push_back(shared_ptr<Object>(pObj));
+  }
 
-	static shared_ptr<ObjectManager> CreateObjectManager(string name, ObjectManager *Manager);
-  static void delObjectManager(string name)
+  void AlldelList()
   {
-    for (auto itr = ObjectMng.begin(); itr != ObjectMng.end();)
-    {
-      if ((*itr)->szName == name)
-      {
-        ObjectMng.erase(itr);
-        break;
-      }
-      itr++;
-    }
+    ObjectList.clear();
   }
-  static void AllDelManager()
-  {
-    ObjectMng.clear();
-  }
+
 	void UpDate() 
 	{
 		for (auto itr = ObjectList.begin(), end_ = ObjectList.end(); itr != end_; itr++) {

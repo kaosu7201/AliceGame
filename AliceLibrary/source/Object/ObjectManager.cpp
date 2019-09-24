@@ -1,6 +1,6 @@
 #include "ObjectManager.h"
 
-list<shared_ptr<ObjectManager>> ObjectManager::ObjectMng;
+ObjectManager* ObjectManager::ObjectMng = NULL;
 
 bool DelList(const shared_ptr<Object> Obj)
 {
@@ -12,17 +12,10 @@ bool DelList(const shared_ptr<Object> Obj)
 
 ObjectManager::ObjectManager()
 {
-
+  ObjectMng = this;
 }
 
 ObjectManager::~ObjectManager()
 {
 }
 
-
-shared_ptr<ObjectManager> ObjectManager::CreateObjectManager(string name, ObjectManager *Manager)
-{
-	ObjectMng.push_back(shared_ptr<ObjectManager>(Manager));
-	Manager->szName = name;
-	return ObjectMng.back();
-}

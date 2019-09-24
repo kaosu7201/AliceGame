@@ -1,5 +1,20 @@
 #include "KeyBoardDevice.h"
 
+void CDIKeyBoard::Init()
+{
+  HRESULT ret;
+  LPDIRECTINPUTDEVICE8 KeyDevice = DXInput::GetInput()->m_KeyDevice;
+  ZeroMemory(keys, sizeof(keys));
+  ZeroMemory(olds, sizeof(olds));
+  ret = KeyDevice->GetDeviceState(sizeof(keys), keys);
+  if (FAILED(ret))
+  {
+    // Ž¸”s‚È‚çÄŠJ‚³‚¹‚Ä‚à‚¤ˆê“xŽæ“¾
+    KeyDevice->Acquire();
+    KeyDevice->GetDeviceState(sizeof(keys), keys);
+  }
+}
+
 void CDIKeyBoard::UpDate()
 {
 	HRESULT ret;

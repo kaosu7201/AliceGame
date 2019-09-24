@@ -13,7 +13,7 @@ public:
   void ManagerTerminate();
 	static Task *getTask() { return lpTask; }
 
-	list<shared_ptr<ObjectManager>>* ObjManage;
+	ObjectManager* ObjManage;
 	DXTexManager* TexManage;
 	AnimationManager* AnimManage;
 protected:

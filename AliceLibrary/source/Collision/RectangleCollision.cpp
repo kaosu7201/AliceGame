@@ -1,5 +1,4 @@
 #include "RectangleCollision.h"
-#include "Collision.h"
 
 RectangleCollision::RectangleCollision(float top, float down, float left, float right, string *ID)
 {

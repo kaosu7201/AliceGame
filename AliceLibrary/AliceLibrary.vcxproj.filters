@@ -68,6 +68,9 @@
     <Filter Include="Lua">
       <UniqueIdentifier>{94f94249-653f-4cf6-ac34-73d994ed137c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Collision\Shape\Vector">
+      <UniqueIdentifier>{3190b98c-cb21-4e14-a6b3-970ff24bac08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\DirectX\DXDevice.h">
@@ -170,9 +173,6 @@
     <ClInclude Include="source\Application\Fps.h">
       <Filter>Application</Filter>
     </ClInclude>
-    <ClInclude Include="source\Collision\CollisionShape.h">
-      <Filter>Collision\Shape</Filter>
-    </ClInclude>
     <ClInclude Include="source\Collision\CircleCollision.h">
       <Filter>Collision\Shape\Circle</Filter>
     </ClInclude>
@@ -190,6 +190,9 @@
     </ClInclude>
     <ClInclude Include="source\Lua\Lua.h">
       <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collision\VectorCollision.h">
+      <Filter>Collision\Shape\Vector</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -331,9 +334,6 @@
     <ClCompile Include="source\SpriteAnimation\AnimationManager.cpp">
       <Filter>SpriteAnimation</Filter>
     </ClCompile>
-    <ClCompile Include="source\Collision\CollisionShape.cpp">
-      <Filter>Collision\Shape</Filter>
-    </ClCompile>
     <ClCompile Include="source\Collision\CircleCollision.cpp">
       <Filter>Collision\Shape\Circle</Filter>
     </ClCompile>
@@ -450,6 +450,9 @@
     </ClCompile>
     <ClCompile Include="source\Lua\Lua.cpp">
       <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision\VectorCollision.cpp">
+      <Filter>Collision\Shape\Vector</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

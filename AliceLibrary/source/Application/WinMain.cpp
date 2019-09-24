@@ -34,7 +34,7 @@ int WINAPI WinMain(
 	}
 	IController controller = CDefaultController::Create(CDIKeyBoard::Create(),CDIMouse::Create());
 	controller->SetDefault();
-
+  controller->UpDate();
 	while (ProcessEvent()) {
 		fps.Update();
 		appBase->Input();

@@ -22,14 +22,15 @@ c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(45):
           [
               _Ty=int
           ]
-  Lua.cpp
+  ModeBase.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(45): warning C4244: '引数': 'lua_Number' から '_Ty' への変換です。データが失われる可能性があります。
-          with
-          [
-              _Ty=int
-          ]
+  Object.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  ObjectManager.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   AnimationController.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
@@ -38,6 +39,9 @@ c:\users\amg\source\repos\kaosu7201\alicegame\alicelibrary\source\lua\lua.h(45):
           [
               _Ty=int
           ]
+  DXTexManager.cpp
+c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   UI.cpp
 c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\d3d9types.h(1384): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
   c:\program files (x86)\microsoft directx 9.0 sdk (december 2004)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800

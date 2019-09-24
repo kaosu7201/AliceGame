@@ -1,10 +1,10 @@
-#include "CollisionShape.h"
-#include "Collision.h"
+#include "CircleCollision.h"
 
-CircleCollision::CircleCollision(float radius, D3DXVECTOR3* lppos)
+CircleCollision::CircleCollision(float radius, D3DXVECTOR2 pos)
 {
 	this->radius = radius;
-	pos = lppos;
+  posX = pos.x;
+  posY = pos.y;
 }
 
 CircleCollision::~CircleCollision() {}

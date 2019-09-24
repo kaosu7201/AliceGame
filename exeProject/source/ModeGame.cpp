@@ -28,7 +28,7 @@ bool ModeGame::Process()
 {
   _IController *Controller = CDefaultController::GetController();
 	base::Process();
-  if (Controller->GetButtonState(GCBTN_0, JUST_DOWN))
+  if (Controller->GetButtonState(GCBTN_15, JUST_DOWN))
   {
     // ‚±‚Ìƒ‚[ƒh‚ðíœ—\–ñ
     ModeServer::GetInstance()->Del(this);

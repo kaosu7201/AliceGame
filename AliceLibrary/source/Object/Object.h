@@ -1,7 +1,7 @@
 #pragma once
 #include "../SpriteAnimation/AnimationManager.h"
 #include "../SpriteAnimation/SpriteAnimation.h"
-#include "../Collision/CollisionShape.h"
+#include "../Collision/Collision.h"
 class Object
 {
 public:
@@ -15,30 +15,27 @@ public:
 	void SetPos(float x, float y, float z) {
 		position.x = x;
 		position.y = y;
-		position.z = z;
 	}
-  D3DXVECTOR3 GetPos()
+  D3DXVECTOR2 GetPos()
   {
     return position;
   }
-	void SetPos(D3DXVECTOR3 vec) {
+	void SetPos(D3DXVECTOR2 vec) {
 		position = vec;
 	}
 	bool GetFlag() const { return Flag; }
 	bool GetStartFlag() const { return startFlag; }
 	void SetStartFlag(bool flag) { startFlag=flag; }
 	string getID() { return ObjID; }
-	Collision2D* getCollision() { return _Collision; }
 protected:
 	string ObjID;
 	bool Flag;
 	bool startFlag;
 
-	D3DXVECTOR3 position; //ワールド座標
-  D3DXVECTOR3 scPos;    //スクリーン座標
-  D3DXVECTOR3 pivot;
+	D3DXVECTOR2 position; //ワールド座標
+  D3DXVECTOR2 scPos;    //スクリーン座標
+  D3DXVECTOR2 pivot;
   float vx, vy;
 
 	AnimationController* AnimControll;
-	Collision2D* _Collision;
 };

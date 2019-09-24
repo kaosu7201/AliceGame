@@ -9,6 +9,8 @@ AnimationController::AnimationController()
 	SwitchFrame = 0;
 	no = 0;
 	name = "";
+  drawflag = true;
+  playflag = true;
 	AnimationManager::GetManager()->addObject(shared_ptr<AnimationController>(this));
 }
 
@@ -32,6 +34,13 @@ void AnimationController::Draw()
 	if (name != "" && drawflag == true) {
 		SpriteAnimation::Draw(name, no, pos->x, pos->y);
 	}
+}
+
+
+void AnimationController::getImgWH(int * imgW, int * imgH)
+{
+  *imgW = AnimPack[name].width;
+  *imgH = AnimPack[name].height;
 }
 
 

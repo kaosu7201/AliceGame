@@ -44,7 +44,7 @@ public:
 	static IController Create(IKeyInput keyboard, IMouseInput mouse);
 	static _IController* GetController() { return lpController; }
 	void UpDate();
-
+  void Init();
 	//“ü—Íˆ—
 	bool GetButtonState(GAMECONTROLLER_BTN ctrl, STATE_TYPE get_type = PRESENT);
 	void GetRelativePos(double &x, double &y);

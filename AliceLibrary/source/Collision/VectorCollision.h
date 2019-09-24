@@ -1,13 +1,14 @@
 #pragma once
-#include "CollisionShape.h"
-class VectorCollision :
-  public Collision2D
+#include "../DirectX/DirectX.h"
+
+class VectorCollision
 {
 public:
   VectorCollision();
-  VectorCollision(D3DXVECTOR3 pos,vector<D3DXVECTOR2> vec);
+  VectorCollision(D3DXVECTOR2 pos,vector<D3DXVECTOR2> vec);
   virtual ~VectorCollision();
-private:
+
   vector<D3DXVECTOR2> vec;
+  float posX, posY;
 };
 

@@ -8,6 +8,7 @@ public:
 	IKeyInputDevice() {}
 	virtual ~IKeyInputDevice() {}
 	virtual void UpDate() = 0;
+  virtual void Init() = 0;
 
 	virtual bool GetKeyState(KEYBOARD_BUTTON key, STATE_TYPE get_type = PRESENT) = 0;
 };
@@ -19,6 +20,7 @@ public:
 	CDIKeyBoard() {}
 	virtual ~CDIKeyBoard() {}
 	void UpDate();
+  void Init();
 
 	bool GetKeyState(KEYBOARD_BUTTON key, STATE_TYPE get_type = PRESENT);
 

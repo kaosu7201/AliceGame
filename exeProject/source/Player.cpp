@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Map.h"
 
 Player::Player()
 {
@@ -6,7 +7,6 @@ Player::Player()
 	controller = CDefaultController::GetController();
 	AnimControll = new AnimationController();
   AnimControll->pos = &scPos;
-	_Collision = new CircleCollision(10, &position);
   direction = 1;
   ApplicationBase::GetInstance()->GetCamera()->setTargetPos(&position);
 }
@@ -19,8 +19,11 @@ Player::Player(float x, float y)
   controller = CDefaultController::GetController();
   AnimControll = new AnimationController();
   AnimControll->pos = &scPos;
-  _Collision = new CircleCollision(10, &position);
+  pivot.x = 0.5;
+  pivot.y = 1;
   direction = 1;
+  vx = 0;
+  vy = 0;
   ApplicationBase::GetInstance()->GetCamera()->setTargetPos(&position);
 }
 
@@ -36,17 +39,18 @@ void Player::start()
 
 void Player::update()
 {
+  vx = 0;
   if (controller->GetButtonState(GCBTN_LEFT))
   {
     AnimControll->PlayAnim("PlayerWalkL", 4);
     direction = -1;
-    position.x -= 5.0f;
+    vx = -5.0f;
   }
   else if (controller->GetButtonState(GCBTN_RIGHT))
   {
     AnimControll->PlayAnim("PlayerWalkR", 4);
     direction = 1;
-    position.x += 5.0f;
+    vx = 5.0f;
   }
   else
   {
@@ -61,6 +65,9 @@ void Player::update()
       AnimControll->setFlag(true, true);
     }
   }
+
+  position.x += vx;
+  VectorHitCheck(D3DXVECTOR2(position.x, position.y), D3DXVECTOR2(vx, vy), *MapData::Collision, &position);
 }
 
 list<shared_ptr<Object>> Player::GettableObject() 

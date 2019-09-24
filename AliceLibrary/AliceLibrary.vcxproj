@@ -27,8 +27,8 @@
     <ClInclude Include="source\Camera\Camera.h" />
     <ClInclude Include="source\Collision\CircleCollision.h" />
     <ClInclude Include="source\Collision\Collision.h" />
-    <ClInclude Include="source\Collision\CollisionShape.h" />
     <ClInclude Include="source\Collision\RectangleCollision.h" />
+    <ClInclude Include="source\Collision\VectorCollision.h" />
     <ClInclude Include="source\DirectX\DirectX.h" />
     <ClInclude Include="source\DirectX\DXDevice.h" />
     <ClInclude Include="source\DirectX\DXInput.h" />
@@ -68,8 +68,8 @@
     <ClCompile Include="source\Camera\Camera.cpp" />
     <ClCompile Include="source\Collision\CircleCollision.cpp" />
     <ClCompile Include="source\Collision\Collision.cpp" />
-    <ClCompile Include="source\Collision\CollisionShape.cpp" />
     <ClCompile Include="source\Collision\RectangleCollision.cpp" />
+    <ClCompile Include="source\Collision\VectorCollision.cpp" />
     <ClCompile Include="source\DirectX\DirectX.cpp" />
     <ClCompile Include="source\DirectX\DXDevice.cpp" />
     <ClCompile Include="source\DirectX\DXInput.cpp" />

@@ -1,11 +1,11 @@
 #pragma once
-#include "CollisionShape.h"
+#include "../DirectX/DirectX.h"
 
-class CircleCollision : public Collision2D {
+class CircleCollision {
 public:
-	CircleCollision(float radius, D3DXVECTOR3* lppos);
+	CircleCollision(float radius, D3DXVECTOR2 pos);
 	virtual ~CircleCollision();
-	float getRadius() const { return radius; }
-private:
+
+  float posX, posY;
 	float radius;
 };

@@ -18,6 +18,24 @@ void CDefaultController::UpDate()
 	m_mouse->UpDate();
 }
 
+
+void CDefaultController::Init()
+{
+  m_keyboard->Init();
+}
+
+/**
+* @brief デフォルトコントローラー 
+* @verbatim
+* [引数]
+*   ctrl     = 
+*   get_type = 種別
+*
+* [戻り値]
+*   true  : 
+*   false :
+* @endverbatim
+*/
 bool CDefaultController::GetButtonState(GAMECONTROLLER_BTN ctrl, STATE_TYPE get_type)
 {
 	bool key(false), mouse(false);

@@ -7,7 +7,7 @@ public:
 	void update();
 
 	void Draw();
-	const D3DXVECTOR3* pos;
+	const D3DXVECTOR2* pos;
 
 	void PlayAnim(string name, int SwFrame) {
 		if (this->name != name) {
@@ -26,6 +26,9 @@ public:
   }
   void setPlayFlag(bool a) { playflag = a; }
   void setDrawFlag(bool a) { drawflag = a; }
+
+  void getImgWH(int* imgW, int* imgH);
+
 private:
 	void Calc();
 
